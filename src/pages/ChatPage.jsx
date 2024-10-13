@@ -28,6 +28,7 @@ export function ChatPage() {
         setMessages([...newMessages, { role: 'assistant', content: response }])
       } catch (error) {
         console.error('Error sending message:', error)
+        // Adicione aqui a lógica para lidar com erros, como exibir uma mensagem para o usuário
       } finally {
         setIsTyping(false)
       }
@@ -44,6 +45,7 @@ export function ChatPage() {
           setMessages([...messages.slice(0, lastUserMessageIndex + 1), { role: 'assistant', content: response }])
         } catch (error) {
           console.error('Error regenerating response:', error)
+          // Adicione aqui a lógica para lidar com erros
         } finally {
           setIsTyping(false)
         }

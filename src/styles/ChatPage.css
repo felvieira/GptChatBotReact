@@ -1,0 +1,48 @@
+.chat-page {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  background-color: var(--background);
+  color: var(--text);
+}
+
+.chat-page__main {
+  flex: 1;
+  overflow: auto;
+}
+
+.chat-page__footer {
+  padding: 1rem;
+}
+
+.chat-page__regenerate-btn {
+  /* Estilos para o botão de regenerar */
+}
+
+.chat-input {
+  /* Estilos para o componente de input */
+}
+
+.chat-input__field {
+  /* Estilos para o campo de input */
+}
+
+.chat-input__send-btn {
+  /* Estilos para o botão de enviar */
+}
+
+.chat-messages {
+  /* Estilos para a lista de mensagens */
+}
+
+.message-bubble {
+  /* Estilos para cada bolha de mensagem */
+}
+
+.message-bubble--user {
+  /* Modificador para mensagens do usuário */
+}
+
+.message-bubble--assistant {
+  /* Modificador para mensagens do assistente */
+}
