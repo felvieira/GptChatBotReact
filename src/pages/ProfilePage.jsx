@@ -17,7 +17,7 @@ export function ProfilePage() {
         <div className="flex flex-col items-center space-y-2 relative">
           <div className="relative">
             <Avatar className="w-24 h-24">
-              <AvatarImage src="/src/assets/robot-img.png" alt="Tom Hillson" />
+              <AvatarImage src="/images/robot-img.png" alt="Tom Hillson" />
               <AvatarFallback>TH</AvatarFallback>
             </Avatar>
             <div className="absolute bottom-0 right-0 w-4 h-4 bg-green-500 rounded-full border-2 border-white"></div>

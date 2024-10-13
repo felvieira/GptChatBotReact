@@ -4,7 +4,7 @@ import { Input } from "@/components/ui/input"
 import { BackIcon, MoreHorizontalIcon, SendIcon, RefreshIcon, ShareIcon, CopyIcon, EditIcon } from '../utils/icons'
 import { useNavigate } from 'react-router-dom'
 import Header from '@/components/Header'
-import RobotImg from '@/assets/robot-img.png'
+import RobotImg from '/images/robot-img.png'
 import LogoSvg from '@/assets/logo.svg'
 import { InfoCard } from '@/components/InfoCard'
 import { processMessageToChatGPT } from '@/services/chatService'

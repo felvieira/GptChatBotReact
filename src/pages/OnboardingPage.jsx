@@ -57,7 +57,7 @@ export function OnboardingPage() {
       <div className="flex-1 flex flex-col">
         <div className="h-[60%] w-full">
           <img
-            src="/src/assets/robot-onboarding.png"
+            src="/images/robot-onboarding.png"
             alt="AI Robot"
             className="w-full h-full object-cover"
           />
