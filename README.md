@@ -2,7 +2,10 @@
 
 ## Descrição
 
+https://gptchatbotreact.felvieira.com.br
+
 GptChatBotReact é uma aplicação web moderna desenvolvida em React que implementa um chatbot baseado em GPT. O projeto utiliza tecnologias e bibliotecas atuais para criar uma interface de usuário interativa e responsiva.
+Ela simula um auto atendimento para o cliente de uma empresa ficticia chamada FinTechX.
 
 ## Tecnologias Principais
 
