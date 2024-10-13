@@ -1,0 +1,19 @@
+version: '3.8'
+
+services:
+  frontend:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    volumes:
+      - ./build:/usr/share/nginx/html
+    ports:
+      - "80:80"
+    environment:
+      - VITE_OPENAI_API_KEY=${VITE_OPENAI_API_KEY}
+
+  # Se você precisar de um backend no futuro, você pode adicioná-lo aqui
+  # backend:
+  #   build: ./backend
+  #   ports:
+  #     - "5000:5000"

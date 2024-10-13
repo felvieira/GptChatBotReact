@@ -1,0 +1,24 @@
+:root {
+  /* Tema escuro (padrão) */
+  --background: #141718;
+  --background-secondary: #232627;
+  --text: #ffffff;
+  --text-title: #757474;
+  --text-muted: #A0A0A5;
+  /* --primary: #4da3ff;
+  --secondary: #a1a8ae;
+  --accent: #34ce57; */
+}
+
+
+.light {
+  /* Tema claro */
+  --background: #ffffff;
+  --background-secondary: #f0f0f0;
+  --text: #333333;
+  --text-title: #242424;
+  --text-muted: #666666;
+  /* --primary: #007bff;
+  --secondary: #6c757d;
+  --accent: #28a745; */
+}
